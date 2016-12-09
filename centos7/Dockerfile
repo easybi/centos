@@ -1,5 +1,5 @@
 FROM centos:centos7
-MAINTAINER Feng Honglin <hfeng@tutum.co>
+MAINTAINER testpi <testpi@outlook.com>
 
 RUN yum -y install openssh-server epel-release && \
     yum -y install pwgen && \
